@@ -116,7 +116,7 @@ td {
                           </div>
                       </div>  
                     </td>                   
-                    <td>$ ".$price."</td>
+                    <td>KES ".$price."</td>
                     ";
                   if(isset($_SESSION['userId']) && $row['status'] === '') {  
                     // <input name='ret_date' type='hidden' value=".$ret_date."> FOR LINE 128 
