@@ -18,21 +18,21 @@ PHP MYADMIN
 
 #How To Import And Run The Project?
 
-Download the zip file
+1. Download the zip file
 
-Extract the file and copy OnlineFlightBooking -PHPfolder
+2. Extract the file and copy OnlineFlightBooking -PHPfolder
 
-3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/HTML)
+3. Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/HTML)
 
-4.Open PHPMyAdmin (http://localhost/phpmyadmin)
+4. Open PHPMyAdmin (http://localhost/phpmyadmin)
 
 #How To Import Database?
 
-Create a database with the name ofbsphp
+5. Create a database with the name ofbsphp
 
-Import ofbsphp.sql file(given inside the zip package in the SQL file folder)
+6. Import ofbsphp.sql file(given inside the zip package in the SQL file folder)
 
-Run the script http://localhost/OnlineFlightBooking-PHP
+7. Run the script http://localhost/OnlineFlightBooking-PHP
 
 #Credential for Admin panel :
 
@@ -41,5 +41,6 @@ Username: admin
 Password: codeastro.com
 
 To access the page online click the link: https://ofbsphp.000webhostapp.com/index.php
+
 #AUTHORS 
 1.KelvinMutuku
