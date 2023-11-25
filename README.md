@@ -32,7 +32,7 @@ PHP MYADMIN
 
 6. Import ofbsphp.sql file(given inside the zip package in the SQL file folder)
 
-7. Run the script http://localhost/OnlineFlightBooking-PHP
+7. Run the script [http://localhost/OnlineFlightBooking-PHP](https://ofbmskyu.000webhostapp.com/)
 
 #Credential for Admin panel :
 
