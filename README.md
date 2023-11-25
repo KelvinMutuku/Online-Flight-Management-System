@@ -40,7 +40,7 @@ Username: admin
 
 Password: codeastro.com
 
-To access the page online click the link: [https://ofbmskyu.000webhostapp.com/index.php](https://ofbmskyu.000webhostapp.com/)https://ofbmskyu.000webhostapp.com/
+To access the page online click the link: [https://ofbmskyu.000webhostapp.com/index.php](https://ofbmskyu.000webhostapp.com/)
 
 #AUTHORS 
 
