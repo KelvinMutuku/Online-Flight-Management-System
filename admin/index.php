@@ -6,11 +6,12 @@ require '../helpers/init_conn_db.php';?>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 <style>
   body {
-    /* background-color: #B0E2FF; */
-    background-color: #efefef;
+    background:url('../assets/images/plane3.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
   }
   td {
-    /* font-family: 'Assistant', sans-serif !important; */
     font-size: 18px !important;
   }
   p {
@@ -148,7 +149,7 @@ require '../helpers/init_conn_db.php';?>
               <th>Action</th>
             </tr>
           </thead>
-          <tbody>             
+          <tbody >             
               <?php
                 $curr_date = (string)date('y-m-d');
                 $curr_date = '20'.$curr_date;

@@ -3,14 +3,14 @@ require '../helpers/init_conn_db.php';?>
 
 <style>
 body{
-  background-image: url('../assets/images/sky.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;    
+  background:url('../assets/images/plane3.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
 }
 
 .checked {
-  color: cornflowerblue;
+  color: #fff;
 }
 h1 {
     font-size: 50px !important;
@@ -21,21 +21,24 @@ h1 {
 p.mail {
   font-family: 'product sans';  
   font-size: 38px;
+  color: #fff !important;
 }
 p.ans {
   color: cornflowerblue;
   font-size: 18px;
+  color: #fff ;
 }
 p.quest {
   color: #4C53D3;
   font-size: 18px;
   font-weight: bold;
+  color: #fff ;
   /* text-align: center; */
 }
 
 div.review-bag {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
-  background: whitesmoke;
+  background: rgba(3, 3, 3 ,0.57);
   padding: 30px !important;
 }
 </style>
@@ -57,7 +60,7 @@ div.review-bag {
       }     
       echo ' 
       <div class="col-md-6 mb-5">
-      <div class="review-bag">  
+      <div class="review-bag" >  
         <p class="mail text-primary"> <i class="fa fa-user"></i> '.$row['email'].'</p>
         <p class="star">
           <span class="fa fa-star fa-lg '.$arr[0].'"></span>

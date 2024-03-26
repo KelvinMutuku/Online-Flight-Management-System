@@ -23,12 +23,13 @@ if(isset($_POST['del_flight']) and isset($_SESSION['adminId'])) {
 
 <style>
 table {
-  background-color: white;
+  background-color: rgba(3 , 3, 3 ,0.57);
 }
 h1 {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: 'product sans';  
+  font-family: 'product sans';
+  color: #fff ;
   font-size: 45px !important; 
   font-weight: lighter;
 }
@@ -36,17 +37,18 @@ a:hover {
   text-decoration: none;
 }
 body {
-  /* background-color: #B0E2FF; */
-  background-color: #efefef;
+  background:url('../assets/images/plane3.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
 }
 th {
   font-size: 22px;
-  /* font-weight: lighter; */
-  /* font-family: 'Courier New', Courier, monospace; */
 }
 td {
   margin-top: 10px !important;
   font-size: 16px;
+  color: #fff ;
   font-weight: bold;
   font-family: 'Assistant', sans-serif !important;
 }
@@ -54,9 +56,8 @@ td {
     <main>
         <?php if(isset($_SESSION['adminId'])) { ?>
           <div class="container-md mt-2">
-            <h1 class="display-4 text-center text-secondary"
-              >FLIGHT LIST</h1>
-            <table class="table table-bordered">
+            <h1 class="display-4 text-center text-secondary" style="color: #fff !important;">FLIGHT LIST</h1>
+            <table class="table table-bordered" >
               <thead class="table-dark">
                 <tr>
                   <th scope="col">ID</th>

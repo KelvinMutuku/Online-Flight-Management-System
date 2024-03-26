@@ -5,9 +5,13 @@
 <style>
 
 body {
-    background: #bdc3c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #bdc3c7;
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+background: linear-gradient(to right, #2c3e50, #bdc3c7);  */
+background:url('assets/images/plane2.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
 
 
 }
@@ -28,13 +32,13 @@ input {
     /* background-color: #F8F9FA !important; */
     margin-bottom: 10px;
     border :0px !important;
-    border-bottom: 2px solid #838383 !important;
-    color :#838383 !important;
+    border-bottom: 2px solid #ffffff !important;
+    color :black !important;
     border-radius: 0px !important;
     font-weight: bold !important;
   }
   label {
-    color : #838383 !important;      
+    color : black !important;      
     font-size: 19px;
   }
 .register{
@@ -43,7 +47,7 @@ input {
 }
 .register-left{
     text-align: center;
-    color: #fff;
+    color: black;
     margin-top: 4%;
 }
 .register-left input{
@@ -51,15 +55,18 @@ input {
     border-radius: 1.5rem;
     padding: 2%;
     width: 60%;
-    background: #f8f9fa;
+    background: transparent;
     font-weight: bold;
-    color: #383d41;
+    color: black;
     margin-top: 30%;
     margin-bottom: 3%;
     cursor: pointer;
 }
 .register-right{
-    background: #f8f9fa;
+    background:url('assets/images/plane2.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
     border-top-left-radius: 10% 50%;
     border-bottom-left-radius: 10% 50%;
 }

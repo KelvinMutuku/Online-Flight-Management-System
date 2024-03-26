@@ -36,8 +36,10 @@ a:hover {
   text-decoration: none;
 }
 body {
-  /* background-color: #B0E2FF; */
-  background-color: #efefef;
+  background:url('../assets/images/plane3.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
 }
 th {
   font-size: 22px;
@@ -54,9 +56,9 @@ td {
     <main>
         <?php if(isset($_SESSION['adminId'])) { ?>
           <div class="container-md mt-2">
-            <h1 class="display-4 text-center text-secondary"
+            <h1 class="display-4 text-center text-secondary" style="color: #fff !important;"
               >AIRLINES LIST</h1>
-            <table class="table table-bordered">
+            <table class="table table-bordered" style="background: rgba(3, 3, 3 ,0.57);color: #fff;">
               <thead class="table-dark">
                 <tr>
                   <th scope="col">#</th>
@@ -66,7 +68,7 @@ td {
 
                 </tr>
               </thead>
-              <tbody>
+              <tbody >
                 
                 <?php
                 $cnt=1;

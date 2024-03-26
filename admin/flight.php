@@ -25,8 +25,7 @@
     font-size: 19px;
   }
   h5.form-name {
-    /* color: cornflowerblue; */
-    /* font-family: 'Courier New', Courier, monospace; */
+    color: #fff;
     font-weight: 50;
     margin-bottom: 0px !important;
     margin-top: 10px;
@@ -37,16 +36,15 @@
     margin-bottom: 20px;  
   }
   body {
-    /* padding-top: 20px; */
-    /* background-image: url('../assets/images/bg5.jpg'); */
-    background-color: #efefef;
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;     */
+    background:url('../assets/images/plane3.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
   }
   div.form-out {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
-    background-color: whitesmoke !important;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   */
+    /* background-color: whitesmoke !important; */
+    background: rgba(3, 3, 3, 0.57) !important;
     padding: 40px;
     margin-top: 30px;
   }
@@ -82,7 +80,7 @@
     }
     ?>
       <div class="bg-light form-out col-md-12">
-      <h1 class="text-secondary text-center">ADD FLIGHT DETAILS</h1>
+      <h1 class="text-secondary text-center" style="color: #fff !important;">ADD FLIGHT DETAILS</h1>
 
       <form method="POST" class=" text-center" 
         action="../includes/admin/flight.inc.php">

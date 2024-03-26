@@ -20,14 +20,14 @@ form.logout_form {
 	padding: 10px !important;
 }
 body {
-	/* background:url('assets/images/bg2.jpg') no-repeat 0px 0px;
+	background:url('assets/images/plane1.jpg') no-repeat 0px 0px;
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 	background-attachment: fixed;
-    background-position: center; */
-	background: #bdc3c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center;
+	/* background: #bdc3c7; 
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);  */
 }
 
 h1,h2,h3,h4,h5,h6{

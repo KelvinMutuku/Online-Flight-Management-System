@@ -9,29 +9,29 @@ if(isset($_GET['pwd'])) {
 <link rel="stylesheet" href="../assets/css/form.css">
 <style>
   body {
-    /* padding-top: 20px; */
-    background: #485563;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background:url('../assets/images/plane3.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
    
   }    
   input {
     border :0px !important;
-    border-bottom: 2px solid #424242 !important;
-    color :#424242 !important;
+    border-bottom: 2px solid #fff !important;
+    color :#fff !important;
     border-radius: 0px !important;
     font-weight: bold !important;
-    background-color: whitesmoke !important;    
+    background-color: transparent !important;    
   }
   *:focus {
     outline: none !important;
   }
   label {
-    color : #828282 !important;
+    color : #ffff !important;
     font-size: 19px;
   }
   h5.form-name {
-    color: #424242;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 50;
     margin-bottom: 0px !important;
@@ -46,7 +46,7 @@ background: linear-gradient(to left, #29323c, #485563); /* W3C, IE 10+/ Edge, Fi
   div.form-out {
     /* border-radius: 40px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
-    background-color: whitesmoke !important;
+    background-color: rgba(3, 3, 3, 0.57)!important;
     padding: 40px;
     margin-top: 80px;
   }
@@ -97,7 +97,8 @@ if(isset($_GET['error'])) {
     ?>
     <div class="col-md-3"></div>
       <div class="bg-light form-out col-md-6">
-      <h1 class="text-secondary text-center">ADMIN LOGIN</h1>
+      <h1 class="text-secondary text-center"
+      style="color: #ffff !important;">ADMIN LOGIN</h1>
       
       <form method="POST" class=" text-center" 
         action="../includes/admin/login.inc.php">
@@ -105,7 +106,7 @@ if(isset($_GET['error'])) {
         <div class="form-row">  
             <div class="col-1 p-0 mr-1">
                 <i class="fa fa-user text-secondary" 
-                    style="float: right;margin-top:35px;"></i>
+                    style="float: right;margin-top:35px;color: #ffff !important;"></i>
             </div> 
           <div class="col-10 mb-2">              
             <div class="input-group">
@@ -116,7 +117,7 @@ if(isset($_GET['error'])) {
           </div>       
           <div class="col-1 p-0 mr-1">
                 <i class="fa fa-lock text-secondary" 
-                    style="float: right;margin-top:35px;"></i>
+                    style="float: right;margin-top:35px;color: #ffff !important;"></i>
           </div>                
           <div class="col-10">
             <div class="input-group">

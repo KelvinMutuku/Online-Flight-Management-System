@@ -65,20 +65,24 @@ if(isset($_COOKIE['Uname']) && isset($_COOKIE['Upwd'])) {
   body {
     /* padding-top: 20px; */
     /* background-image: url('assets/images/bg6.jpg'); */
-    background: #bdc3c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #bdc3c7;   */
+/* background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+background: linear-gradient(to right, #2c3e50, #bdc3c7);  */
+background:url('assets/images/plane2.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+  background-position: center; 
 
 
   
   }    
   input {
     border :0px !important;
-    border-bottom: 2px solid #838383 !important;
-    color :#838383 !important;
+    border-bottom: 2px solid #ffffff !important;
+    color :#ffffff !important;
     border-radius: 0px !important;
     font-weight: bold !important;
-    background-color: whitesmoke !important;  
+    background-color: transparent !important;  
     border: none;
     border-bottom: 2px solid #838383;      
   }
@@ -86,7 +90,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
     outline: none !important;
   }
   label {
-    color : #838383 !important;
+    color : #ffffff !important;
     font-size: 19px;
   }
   h5.form-name {
@@ -125,7 +129,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
   }
   div.form-out {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
-    background-color: whitesmoke !important;
+    background-color: rgba(3, 3, 3, 0.57)!important;
     padding: 40px;
     margin-top: 60px;
   }
@@ -156,7 +160,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
   <div class="row">
     <div class="col-md-3"></div>
       <div class="bg-light form-out col-md-6">
-      <h1 class="text-secondary text-center">LOG IN PANEL</h1>
+      <h1 class="text-secondary text-center" style="color:#fff !important;">LOG IN PANEL</h1>
       
       <form method="POST" class=" text-center" 
         action="includes/login.inc.php">
@@ -164,7 +168,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
         <div class="form-row">  
             <div class="col-1 p-0 mr-1">
                 <i class="fa fa-user text-secondary" 
-                    style="float: right;margin-top:35px;"></i>
+                    style="float: right;margin-top:35px;color:#fff !important;"></i>
             </div> 
           <div class="col-10 mb-2">              
             <div class="input-group">
@@ -175,7 +179,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
           </div>       
           <div class="col-1 p-0 mr-1">
                 <i class="fa fa-lock text-secondary" 
-                    style="float: right;margin-top:35px;"></i>
+                    style="float: right;margin-top:35px;color:#fff !important;"></i>
           </div>                
           <div class="col-10">
             <div class="input-group">
@@ -190,7 +194,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
        
           <div class="col">
           <a id="reset-pass" class="mr-5" href="reset-pwd.php"
-              style="float: right !important;">Reset Password</a>        
+              style="float: right !important; color:#ffffff;">Reset Password</a>        
           </div>         
         </div>   
         <div class="row mt-4">

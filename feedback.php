@@ -55,7 +55,7 @@
 }
 
 .rating label:last-child .icon {
-  color: #000;
+  color: #fff;
 }
 
 .rating:not(:hover) label input:checked ~ .icon,
@@ -68,9 +68,14 @@
   text-shadow: 0 0 5px #09f;
 }  
 body {
-  background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:url('assets/images/plane1.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	background-attachment: fixed;
+  background-position: center;
+  /* background: #bdc3c7;  
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);  */
 
 }
 @font-face {
@@ -86,9 +91,9 @@ h1 {
 }
 
 textarea {
-  color: cornflowerblue !important;
-  border :3px solid #31B0D5 !important;
-  background-color: whitesmoke !important;
+  color: #fff !important;
+  border :3px solid #fff !important;
+  background-color: transparent !important;
   font-weight: bold !important;
 }
 textarea:focus {
@@ -100,19 +105,19 @@ textarea:focus {
 }
 input {
     border :0px !important;
-    border-bottom: 2px solid #31B0D5 !important;
-    color :cornflowerblue !important;
+    border-bottom: 2px solid #fff !important;
+    color :#fff !important;
     border-radius: 0px !important;
     font-weight: bold !important;
     border: none;
     border-bottom: 2px solid #31B0D5;      
   }
   label {
-    color : #79BAEC !important;
+    color : #fff !important;
     font-size: 19px;
   }  
   div.form-group label {
-    color: cornflowerblue !important;
+    color: #fff !important;
     font-weight: bold;
   }
   div.rating label{
@@ -125,7 +130,8 @@ input {
 }
 .form-box {
   padding: 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  background-color: rgba(3, 3, 3, 0.57)!important;
 }
 </style>
 
@@ -165,8 +171,8 @@ if(isset($_GET['error'])) {
           <div class="col-12 mt-4">
             <div class="form-group">         
               <select class="mt-4" name="2" style="border: 0px; border-bottom: 
-              2px solid #31B0D5; background-color: whitesmoke !important;
-              font-weight: bold !important;color :cornflowerblue !important;
+              2px solid #fff; background-color: transparent !important;
+              font-weight: bold !important;color :black !important;
               width:100%" required>
                 <option  selected disabled>How did you first hear about us?</option>
                 <option >Search Engine</option>

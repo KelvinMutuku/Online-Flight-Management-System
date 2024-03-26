@@ -14,18 +14,25 @@ h1{
 	text-align:center;
 }
 body {
-  background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:url('assets/images/plane2.jpg') no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
 
 }
 .login-form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
     border-radius: 0px;
 }
+input::placeholder{
+    color:#ffff;
+}
+input{
+    color:#ffff;
+}
 </style>
 <div class="flex-container">
-    <div class="login-form mt-5" style="height: 350px;">
+    <div class="login-form mt-5" style="height: 350px;background-color:transparent;">
         <h1 class="text-center text-secondary mb-4">Reset Password</h1>
         <div class="alert text-center alert-info mb-0" 
             style="margin-left: 60px; margin-right:60px;" role="alert">   
@@ -38,7 +45,8 @@ body {
                 </div>
                 <div>
                     <input type="text" name="user_email" 
-                        placeholder="Enter your registered email-id" class="form-input" required>
+                        placeholder="Enter your registered email-id" class="form-input" required 
+                        style="background-color:transparent;">
                 </div>
             </div>
             <div class="submit">
