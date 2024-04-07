@@ -34,12 +34,6 @@ PHP MYADMIN
 
 7. Run the script [http://localhost/OnlineFlightBooking-PHP]
 
-#Credential for Admin panel :
-
-Username: admin
-
-Password: codeastro.com
-
 To access the page online click the link: [https://ofbmskyu.000webhostapp.com/index.php](https://ofbmskyu.000webhostapp.com/)
 
 #AUTHORS 
